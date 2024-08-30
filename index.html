@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeHouse</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand  text-white" href="#">CoffeeHouse</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#order">Order Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero-section">
+        <div class="slider">
+            <img src="c4.jpg" alt="Coffee 1" class="img-fluid slide">
+        </div>
+    </section>
+
+    <!-- Menu Section with Images, Names, and Ratings -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="esperesso.jfif" alt="Espresso" class="menu-image img-fluid">
+                    <h3 class="menu-name">Espresso</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Cappuccino.jfif" alt="Cappuccino" class="menu-image img-fluid">
+                    <h3 class="menu-name">Cappuccino</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Latte.jfif" alt="Latte" class="menu-image img-fluid">
+                    <h3 class="menu-name">Latte</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Mocha.jfif" alt="Mocha" class="menu-image img-fluid">
+                    <h3 class="menu-name">Mocha</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Green Tea.jfif" alt="Green Tea" class="menu-image img-fluid">
+                    <h3 class="menu-name">Green Tea</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Herbal Tea.jfif" alt="Herbal Tea" class="menu-image img-fluid">
+                    <h3 class="menu-name">Herbal Tea</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Croissant.jfif" alt="Croissant" class="menu-image img-fluid">
+                    <h3 class="menu-name">Croissant</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Muffin.jfif" alt="Muffin" class="menu-image img-fluid">
+                    <h3 class="menu-name">Muffin</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐⭐</p>
+                </div>
+                <div class="col-md-4 col-sm-6 menu-item">
+                    <img src="Bagel.jfif" alt="Bagel" class="menu-image img-fluid">
+                    <h3 class="menu-name">Bagel</h3>
+                    <p class="menu-rating">Rating: ⭐⭐⭐⭐</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Coffee -->
+    <div class="animated-coffee">
+        <img src="coffee cup.gif" alt="Coffee Cup">
+    </div>
+
+    <!-- Attractive Order Now Section -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <h2 class="order-heading">Place Your Order</h2>
+            <form class="order-form">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-input">
+                
+                <label for="item" class="form-label">Select Item:</label>
+                <select id="item" name="item" class="form-select">
+                    <option value="espresso">Espresso</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="latte">Latte</option>
+                    <option value="mocha">Mocha</option>
+                    <option value="greentea">Green Tea</option>
+                    <option value="herbaltea">Herbal Tea</option>
+                    <option value="croissant">Croissant</option>
+                    <option value="muffin">Muffin</option>
+                    <option value="bagel">Bagel</option>
+                </select>
+                
+                <label for="rating" class="form-label">Rate Us:</label>
+                <input type="range" id="rating" name="rating" min="1" max="5" class="form-range">
+                
+                <button type="submit" class="order-button">Order Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-section">
+                    <h4 class="footer-title">About Us</h4>
+                    <p class="footer-text">CoffeeHouse is your cozy corner for premium coffee and snacks. Enjoy the best brews in town!</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <p class="footer-text">Email: contact@coffeehouse.com</p>
+                    <p class="footer-text">Phone: +123 456 7890</p>
+                </div>
+                <div class="col-md-4 footer-section">
+                    <h4 class="footer-title">Follow Us</h4>
+                    <p class="footer-text">Facebook | Twitter | Instagram</p>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2024 CoffeeHouse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
